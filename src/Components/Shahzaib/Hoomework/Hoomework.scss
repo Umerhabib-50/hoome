@@ -1,0 +1,115 @@
+.our_work_container {
+  // height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 200px;
+  @media (max-width: 850px) {
+    height: unset;
+    padding-top: 100px;
+  }
+
+  .main_work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 3rem;
+    @media (max-width: 1290px) {
+      gap: 1.5rem;
+    }
+    .main_min_title {
+      display: flex;
+      color: black;
+      gap: 1rem;
+
+      @media (max-width: 400px) {
+        padding-left: 10px;
+      }
+
+      .title_text {
+        font-size: 12px;
+        margin-top: -6px;
+      }
+    }
+
+    .work_title {
+      font-size: 42px;
+      @media (max-width: 1290px) {
+        font-size: 30px;
+      }
+      @media (max-width: 440px) {
+        font-size: 23px;
+      }
+    }
+
+    .main_cloth_card {
+      display: flex;
+      gap: 2rem;
+      @media (max-width: 850px) {
+        flex-direction: column;
+      }
+      .cloth_card {
+        width: 393px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        @media (max-width: 1290px) {
+          width: 300px;
+          gap: 1rem;
+        }
+        @media (max-width: 1000px) {
+          width: 250px;
+          gap: 1rem;
+        }
+        @media (max-width: 850px) {
+          width: 400px;
+        }
+        @media (max-width: 440px) {
+          width: 300px;
+        }
+        img {
+          width: 393px;
+          height: 393px;
+          @media (max-width: 1290px) {
+            width: 300px;
+            height: 300px;
+          }
+          @media (max-width: 1000px) {
+            width: 250px;
+            height: 250px;
+          }
+          @media (max-width: 850px) {
+            width: 400px;
+            height: unset;
+          }
+          @media (max-width: 440px) {
+            width: 300px;
+          }
+        }
+      }
+
+      .cloth_title {
+        font-size: 28px;
+        @media (max-width: 1290px) {
+          font-size: 20px;
+        }
+        @media (max-width: 440px) {
+          font-size: 18px;
+        }
+      }
+      .cloth_para {
+        font-size: 14px;
+        line-height: 25px;
+        @media (max-width: 1290px) {
+          font-size: 12px;
+        }
+        @media (max-width: 440px) {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}

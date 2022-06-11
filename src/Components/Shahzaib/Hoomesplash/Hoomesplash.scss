@@ -1,0 +1,121 @@
+.splash_main{
+    position: relative;
+    .splash_1{
+        width: 100%;
+    }
+    .splash_2{
+        width: 100%;
+        margin-top: -10px;
+    }
+    .polygon{
+        background-image: url(../../../Images/gon.png);
+        height: 1552px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: -200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        @media(max-width:1050px){
+            background-size: cover;
+            height: 1150px;
+            top: -200px;
+        }
+        @media(max-width:750px){
+            height: 800px;
+            top: -100px;
+        }
+        @media(max-width:550px){
+            height: 600px;
+            top: 0px;
+        }
+        @media(max-width:470px){
+            height: 500px;
+          
+           
+        }
+        @media(max-width:400px){
+            height: 450px;
+            
+           
+        }
+        @media(max-width:350px){
+            height: 400px;
+            
+           
+        }
+        .polygon_content{
+
+            padding-top: 300px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            @media(max-width:750px){
+                padding-top: 150px;
+             }
+            @media(max-width:550px){
+                padding-top: 50px;
+             }
+            @media(max-width:390px){
+           gap: 1rem;
+             }
+        .logo{
+            width: 50px;
+            height: 50px;
+        }
+        .poly_para{
+            color: white;
+            text-align: center;
+            max-width: 39%;
+            line-height: 30px;
+            padding-top: 80px;
+            font-size: 20px;
+            @media(max-width:1260px){
+               max-width: 50%;
+               font-size: 15px;
+            }
+            @media(max-width:900px){
+               padding-top: 20px;
+               max-width: 60%;
+            }
+            @media(max-width:800px){
+               max-width: 70%;
+            }
+            @media(max-width:550px){
+               max-width: 80%;
+            }
+            @media(max-width:470px){
+               max-width: 90%;
+               font-size: 12px;
+               line-height: 20px;
+               padding-top: unset;
+            }
+           
+        }
+        .poly_title{
+            text-align: center;
+            color: white;
+            font-size: 150px;
+            @media(max-width:1400px){
+                font-size: 100px;
+            }
+            @media(max-width:1200px){
+                font-size: 80px;
+            }
+            @media(max-width:900px){
+                font-size: 50px;
+            }
+            @media(max-width:550px){
+                font-size: 30px;
+            }
+            @media(max-width:470px){
+                font-size: 25px;
+            }
+        }
+    }
+    }
+}

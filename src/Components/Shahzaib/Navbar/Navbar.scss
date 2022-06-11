@@ -1,0 +1,127 @@
+.main_hoome_menu_nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  .nav_main_left {
+    padding-left: 50px;
+  }
+
+  .ham_burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .unvispoly_main {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      position: relative;
+
+      cursor: pointer;
+
+      .unvispoly {
+        width: 150px;
+        margin-top: -25px;
+      }
+      .click {
+        position: absolute;
+        margin-right: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.MuiBox-root {
+  width: 100% !important;
+}
+.MuiDrawer-paperAnchorRight {
+  width: 100% !important;
+  background-color: black !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.menu_mui_box {
+  width: 100% !important;
+}
+.hoome_burger_menu {
+  height: 100vh;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  z-index: 9999999999999999999999999;
+  position: relative;
+  .nav_text {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    @media (max-width: 1400px) {
+      font-size: 80px;
+    }
+    @media (max-width: 850px) {
+      font-size: 60px;
+    }
+    @media (max-width: 500px) {
+      font-size: 50px;
+    }
+  }
+
+  .burger_nedd {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .mail {
+      font-size: 20px;
+      color: white;
+      position: absolute;
+      right: 80px;
+      bottom: 80px;
+      @media (max-width: 1400px) {
+        right: 50px;
+        bottom: 40px;
+      }
+      @media (max-width: 850px) {
+        right: 50px;
+        bottom: 50px;
+      }
+    }
+  }
+
+  .close {
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    .close_icon {
+      font-size: 50px;
+      padding-right: 50px;
+      @media (max-width: 850px) {
+        padding-right: 30px;
+        font-size: 40px;
+      }
+    }
+    img {
+      padding-left: 50px;
+      @media (max-width: 850px) {
+        width: 50px;
+      }
+      @media (max-width: 850px) {
+        padding-left: 30px;
+      }
+    }
+  }
+}
